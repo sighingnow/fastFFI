@@ -14,7 +14,7 @@
 cmake_minimum_required(VERSION 3.8)
 project(LLVM4JNI)
 
-set(CMAKE_C_STANDARD 14)
+set(CMAKE_C_STANDARD 11)
 
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wall")
 SET(CMAKE_CXX_FLAGS_DEBUG  "${CMAKE_CXX_FLAGS_DEBUG} -O0 -g -fprofile-arcs -ftest-coverage")
